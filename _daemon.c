@@ -7,17 +7,6 @@
 #include <linux/fs.h>
 #include <linux/limits.h>
 
-
-
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <fcntl.h>
-#include <unistd.h>
-#include <linux/fs.h>
-#include <linux/limits.h>
-
 #define NR_OPEN 1024
 
 int _daemon(int nochdir, int noclose) {
